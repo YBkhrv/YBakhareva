@@ -1,0 +1,61 @@
+* {
+  padding: 0;/* промежуток между заголовком и содержанием */
+}
+ 
+body {
+  font: 16px 'Arial';
+}
+ 
+.box {/* чтобы все было по центру,цифры ставила на глаз */
+  width: 630px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+ 
+ 
+.header img { /* пока не сообразила почему не отображается */
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+ 
+.photo,
+.author {
+  display: inline-block;
+}
+ 
+.author { /* Yulia Bakhareva*/
+  margin-left: 15px;
+  vertical-align: top;
+}
+
+  
+/* заголовок */
+ 
+h3 {
+  text-align: left;
+  color: #2c3e50;
+}
+ 
+ 
+/* свойства горизонтальной линии */
+ 
+hr {
+  border: none;
+  color: #FFFF00;/*только так сообразила,куда пристроить желтый */
+  background-color: #FFFF00;
+  height: 10px;
+}
+ 
+ 
+/* задаем свойства тексту */
+ 
+p {
+  text-align: left;
+  color: #34495e;
+}
+ 
+ 
+.contacts {
+  text-align: left;
+}
