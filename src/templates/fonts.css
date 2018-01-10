@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'CenturyGothic';
+    src: url('../fonts/gothic.eot');<!--<p>где это </p>-->
+    src: local('gothic'), url('../fonts/gothic.woff') format('woff'), url('../fonts/gothic.ttf') format('truetype');
+}
+
+
